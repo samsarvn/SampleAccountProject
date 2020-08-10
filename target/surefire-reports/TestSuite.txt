@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 5, Time elapsed: 74.587 sec <<< FAILURE! - in TestSuite
+setUpScenario(util.RunCukes)  Time elapsed: 4.452 sec  <<< FAILURE!
+java.lang.IllegalArgumentException: Check browser namefirefox
+	at util.Driver.loadBrowser(Driver.java:41)
+	at util.RunCukes.setUpScenario(RunCukes.java:30)
+
